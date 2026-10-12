@@ -14,7 +14,7 @@ Every module has a runnable example, a short README (concept, how to run, what t
 | 3 Agents | [`03_agents/`](03_agents) | Bounded loop, memory, prompt caching, token counting, context editing, planning | Done |
 | 4 MCP | [`04_mcp/`](04_mcp) | MCP server and client, connector, HTTP auth, tool search, security | Done |
 | 5 Workflows | [`05_workflows/`](05_workflows) | Chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer, subagents, model routing, batches | Done |
-| 6 Harness engineering | `06_harness/` | Context engineering, permissions, hooks, budgets, tracing, evals | Planned |
+| 6 Harness engineering | [`06_harness/`](06_harness) | Context engineering, permissions, hooks, budgets, tracing, evals | In progress (context, tracing, tool safety, control and recovery done) |
 | 7 Capstone | `07_enterprise_capstone/` | Production-style agent with MCP tools, approvals, tracing, evals | Planned |
 
 Start simple: a single call first, then a workflow, and an agent only when the task needs open-ended, model-driven tool use.
