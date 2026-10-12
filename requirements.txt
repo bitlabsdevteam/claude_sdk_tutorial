@@ -1,0 +1,6 @@
+anthropic
+python-dotenv
+pytest
+pydantic
+mcp>=2
+uvicorn
