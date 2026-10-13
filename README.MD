@@ -15,7 +15,7 @@ Every module has a runnable example, a short README (concept, how to run, what t
 | 4 MCP | [`04_mcp/`](04_mcp) | MCP server and client, connector, HTTP auth, tool search, security | Done |
 | 5 Workflows | [`05_workflows/`](05_workflows) | Chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer, subagents, model routing, batches | Done |
 | 6 Harness engineering | [`06_harness/`](06_harness) | Context engineering, permissions, hooks, budgets, tracing, evals | In progress (context, tracing, tool safety, control and recovery done) |
-| 7 Capstone | `07_enterprise_capstone/` | Production-style agent with MCP tools, approvals, tracing, evals | Planned |
+| 7 Capstone | `07_enterprise_capstone/` | Production-style agent with MCP tools, approvals, tracing, evals | Built |
 
 Start simple: a single call first, then a workflow, and an agent only when the task needs open-ended, model-driven tool use.
 
@@ -45,7 +45,7 @@ The SDK also works with an `ant auth login` profile, so the key in `.env` is opt
 agenda.md           curriculum and folder structure (source of truth)
 CLAUDE.md           project conventions for working with Claude Code
 common/             shared config, Budget, llm helper, demo tools
-00_setup/ ... 05_workflows/   one folder per level, each with its own README
+00_setup/ ... 07_enterprise_capstone/   one folder per level, each with its own README
 tests/              mirrors the level folders
 ```
 

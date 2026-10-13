@@ -4,7 +4,7 @@
 
 A progressive learning and reference project for building **agentic solutions with the Claude API / Anthropic SDK**, from beginner to advanced, covering both simple and enterprise-grade agents. Every example should be runnable, minimal for its level, and build on the previous level.
 
-Status: Levels 0-5 are built (each with a README and mocked tests); Levels 6-7 are next. Update the Commands and Layout sections below as the code is added.
+Status: Levels 0-5 and 7 are built (each with a README and mocked tests); Level 6 is built except 6D (evals/replay) and 6E (hosted harnesses). Update the Commands and Layout sections below as the code is added.
 
 ## Stack and defaults
 
